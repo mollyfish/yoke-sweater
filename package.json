@@ -21,11 +21,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mollyfish/spoolahoop-mockups.git"
+    "url": "git+https://github.com/mollyfish/yoke-sweater.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/mollyfish/spoolahoop-mockups/issues"
+    "url": "https://github.com/mollyfish/yoke-sweater/issues"
   },
-  "homepage": "https://github.com/mollyfish/spoolahoop-mockups#readme"
+  "homepage": "https://github.com/mollyfish/yoke-sweater#readme"
 }
