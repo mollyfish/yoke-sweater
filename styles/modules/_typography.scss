@@ -1,0 +1,30 @@
+h4 {
+  font-size: 140%;
+}
+
+p {
+  @include font-delius();
+}
+
+@mixin links($link-color, $visited-color, $hover-color, $active-color, $text-deco, $hov-text-deco) {
+  a {
+    color: $link-color;
+    text-decoration: $text-deco;
+    &:visited {
+      color: $visited-color;
+      text-decoration: $text-deco;
+    }
+    &:hover {
+      color: $hover-color;  
+      text-decoration: $hov-text-deco; 
+    }
+    &:active {
+      color: $active-color;
+      text-decoration: $text-deco;
+    }
+  }
+}
+
+// a {
+//   @include links($dark, $dark, $bright, $dark, none, underline);
+// }

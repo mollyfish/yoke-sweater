@@ -1,0 +1,31 @@
+{
+  "name": "yoke",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": " <kent.molly@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "require-dir": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mollyfish/spoolahoop-mockups.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mollyfish/spoolahoop-mockups/issues"
+  },
+  "homepage": "https://github.com/mollyfish/spoolahoop-mockups#readme"
+}

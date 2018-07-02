@@ -1,0 +1,22 @@
+footer {
+  @include font-patrick-hand(110%);
+  @include links($dark, $dark, $dark, $dark, none, none);
+  clear: both;
+  text-align: center;
+  background-color: $background;
+}
+
+footer ul li {
+  display: inline-block;
+  height: 2em;
+  padding: 0;
+}
+
+footer a {
+  display: block;
+  height: 2em;
+  padding: 0.5em;
+  &:hover {
+    background-color: $lowlight;
+  }
+}

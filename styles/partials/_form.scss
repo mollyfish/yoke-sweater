@@ -1,0 +1,35 @@
+form {
+  @include font-patrick-hand(110%);
+  @include links($dark, $dark, $dark, $dark, none, none);
+  background-color: $background;
+  width: 100%;
+  float: left;
+}
+
+form ul li {
+  display: block;
+  height: 3em;
+  padding: 0;
+  float: left;
+}
+
+form a:link {
+  display: block;
+  padding: 1em;
+  height: 3em;
+  &:hover {
+    background-color: $lowlight;
+  } 
+}
+
+.left-form {
+  float: left;
+}
+
+.right-form {
+  float: right;
+}
+
+form a.thumb-link:link {
+  padding: 1px;
+}

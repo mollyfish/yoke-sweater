@@ -1,0 +1,39 @@
+
+// The below mixins are modified from https://engageinteractive.co.uk/blog/top-10-scss-mixins
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+  $padding: unquote( ( $y / $x ) * 100 + '%' );
+  @if $pseudo {
+    &:before {
+      @include pseudo($pos: relative);
+      width: 100%;
+      padding-top: $padding;
+    }
+  } @else {
+    padding-top: $padding;
+  }
+}
+
+// end mixins modified from https://engageinteractive.co.uk/blog/top-10-scss-mixins
+
+body {
+  @include font-patrick-hand(1em, $dark);
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
